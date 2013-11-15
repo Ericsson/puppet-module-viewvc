@@ -4,6 +4,7 @@
 ScriptAlias /viewvc /var/www/cgi-bin/viewvc.cgi
 ScriptAlias /query /var/www/cgi-bin/query.cgi
 Alias /viewvc-static /var/www/viewvc
+RedirectMatch "^/+$" /viewvc
 
 <Directory /var/www/viewvc>
   Allow from all
