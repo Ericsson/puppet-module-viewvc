@@ -1,0 +1,11 @@
+name 'ericsson-viewvc'
+version '0.1.0'
+source 'git://github.com/Ericsson/puppet-module-viewvc.git'
+author 'Ericsson'
+license 'Apache License, Version 2.0'
+summary 'Manages viewvc'
+description 'Puppet module to manage viewvc'
+project_page 'https://github.com/Ericsson/puppet-module-viewvc'
+
+dependency 'puppetlabs/stdlib', '3.2.x'
+dependency 'puppetlabs/apache', '>= 0.5.0'
